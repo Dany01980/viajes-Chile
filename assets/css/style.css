@@ -2,3 +2,29 @@ html {
     color: white;
     scroll-behavior: auto;
 }
+div {
+    font-family: Raleway;
+    font-weight: 200;
+}
+nav p {
+    margin: 0;
+}
+.cuerpo {
+    background-color: black;
+}
+h2 {
+    color: white;
+    font-weight: lighter;
+}
+div.card {
+    border: none;
+}
+.icons-somos {
+    background-color: aquamarine;
+    color: white;
+    display: block;
+    padding: 0.5em;
+}
+.text-somos {
+    color: white;
+}
