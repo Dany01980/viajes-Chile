@@ -1,6 +1,6 @@
 html {
     color: white;
-    scroll-behavior: auto;
+    scroll-behavior: auto !important;
 }
 div {
     font-family: Raleway;
@@ -20,7 +20,7 @@ div.card {
     border: none;
 }
 .icons-somos {
-    background-color: aquamarine;
+    background-color: #0dcaf0;
     color: white;
     display: block;
     padding: 0.5em;
@@ -28,4 +28,27 @@ div.card {
 .text-somos {
     color: white;
     text-align: justify;
+}
+i,
+label {
+    color: white;
+}
+.icons-footer {
+    font-size: xx-large;
+    padding: 0.5 0.5em;
+}
+.card-body {
+    color: white;
+    background-color: #0dcaf0;
+    height: 12em;
+}
+.car-title {
+    font-size: medium;
+}
+.car-img-top {
+    max-height: 8em;
+    width: auto;
+}
+footer {
+    background-color: #0dcaf0;
 }
