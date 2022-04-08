@@ -14,11 +14,23 @@ $(document).ready(function () {
         )
     });
     $(window).scroll(function () {
-        if ($(document).scrollTop() > 900) {
-            $(".navbar").css("background-color", "#000000");
-        } else {
-            $(".navbar").css("background-color", "transparent");
+        if ($(window).width() > 800){
+            if ($(document).scrollTop() > 900) {
+                $(".navbar").css("background-color", "#000000");
+            } else {
+                $(".navbar").css("background-color", "transparent");
+            }
         }
+        else if($(window).width() < 500) {
+                if ($(document).scrollTop() > 275) {
+                    $(".navbar").css("background-color", "#000000");
+                } else {
+                    $(".navbar").css("background-color", "transparent");
+                }
+        }
+       else {
+           console.log($(document).scrollTop())
+       }
     });
 
 })
